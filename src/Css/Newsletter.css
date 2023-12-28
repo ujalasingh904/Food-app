@@ -1,0 +1,55 @@
+.input-group {
+    box-shadow: 0 -1px 59px 14px rgba(195, 195, 195, 0.75);
+    border-radius: 50px;
+}
+
+.input-group input {
+    padding: 1.2rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    outline: none;
+    border: none;
+}
+
+.input-group button {
+    padding: 1.2rem 3.3rem;
+    font-size: 1.40rem;
+    font-weight: 500;
+    border-radius: 50px !important;
+}
+
+/*      */
+.form-control:focus {
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+
+@media only screen and (width >=320px) and (width <=576px) {
+    .main-h2 {
+        font-size: 1.4rem;
+    }
+
+    .input-group input {
+        padding: 0.2rem;
+        font-size: .9rem;
+    }
+
+    .input-group button {
+        padding: 0.5rem 1rem;
+        /* font-size: .9rem !important; */
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (width >=577px) and (width <992px) {
+    .input-group input {
+        padding: 0.4rem;
+        font-size: 1.4rem;
+    }
+
+    .input-group button {
+        padding: 0.8rem 1.8rem; 
+    }
+}

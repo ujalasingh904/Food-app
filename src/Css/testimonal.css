@@ -1,0 +1,72 @@
+.Testimomnal {
+    background-image: url(../assets/spinach.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.testimonal_col {
+    box-shadow: 0 -1px 79px 14px rgba(195, 195, 195, 0.75);
+    border-radius: 0 40px;
+    padding: 2rem;
+}
+
+.testimonal_col img {
+    width: 20%;
+    border-radius: 100%;
+
+}
+
+.testimonal_col p {
+    font-weight: 500;
+    font-size: .95rem;
+    padding: 0 2rem;
+}
+
+@media only screen and (width >=320px) and (width <=576px) {
+    .testimonal_col {
+        padding: 2rem .6rem;
+    }
+
+    .testimonal_col p {
+        padding: 1rem .1rem !important;
+        font-size: .8rem;
+        margin: 0;
+    }
+
+    .menu_col_icon1 {
+        font-size: 1.8rem;
+
+    }
+
+    .testimonal_col h4 {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (width >=577px) and (width <992px) {
+    .testimonal_col {
+        padding: 2.5rem 0rem;
+    }
+
+    .testimonal_col p {
+        padding: 2rem !important;
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .menu_col_icon1 {
+        font-size: 1.8rem;
+
+    }
+
+    .testimonal_col h4 {
+        font-size: 1.3rem;
+    }
+}
+
+/* @media only screen and (width >=993px) {
+    .testimonal_col p{
+        font-size: 1.1rem;
+
+    }
+} */

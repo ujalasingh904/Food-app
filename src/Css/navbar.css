@@ -1,0 +1,85 @@
+.Nav_main {
+    padding: 0.8rem 1rem !important;
+}
+
+.nav_last {
+    padding-left: 1rem;
+}
+
+.btn1 {
+    font-size: 1rem;
+    padding: 0.8rem 1.7rem;
+    font-weight: 600;
+    letter-spacing: .2px;
+    border-radius: 30px;
+    border: none;
+    margin: 0 1.34rem 0 1.5rem;
+}
+
+.btn1:hover {
+    background-color: black;
+    color: var(--primary-color);
+    transition: all .5s ease;
+}
+
+.icon {
+    font-size: 1.4rem;
+
+}
+
+.nav_ul li {
+    padding: 0 .9rem;
+}
+
+.nav_ul a {
+    font-weight: 600;
+    color: #000 !important;
+}
+
+.navbar-toggler:focus{
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important ;
+}
+
+button:focus:not(:focus-visible){
+    border: 0;
+} 
+.nav_ul a{
+    border-bottom: 2px solid transparent;
+}
+.nav_ul a:hover{
+    border-bottom: 2px solid #000;
+    transition: .5s linear;
+}
+
+@media only screen and (width >=320px) and (width <=576px) {
+    .Nav_main {
+        padding: 0 1rem !important ;
+    }
+    .navbar-collapse{
+        background-color: var(--primary-color);
+        padding: .5rem 0 1.5rem 0;
+        transition: .4s linear;
+    }
+    .nav_ul a:focus{
+        border-bottom: 2px solid #000;;
+        transition: .5s linear;
+    }
+}
+
+
+@media only screen and (width >=577px) and (width < 992px) {
+    .Nav_main {
+        padding: 0 1rem !important ; 
+    }
+    .navbar-collapse{
+        background-color: var(--primary-color);
+        padding: .5rem 0 1.5rem 0;
+        transition: .4s linear; 
+    }
+    .nav_ul a:focus{
+        border-bottom: 2px solid #000;;
+        transition: .5s linear;
+    }
+}

@@ -1,0 +1,139 @@
+.menu_col_mid {
+    padding: 0 1.5rem 1.5rem 0;
+}
+
+.menu_col h2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.menu_col h6 {
+    padding: 0.5rem 0;
+    font-size: .9rem;
+    padding: .5rem 1rem;
+    font-weight: 600;
+}
+
+.menu_col p {
+    padding: 0 1rem;
+    font-size: 1.05rem;
+}
+
+.row_col {
+    padding: 1rem;
+}
+
+.menu_col_icon1 {
+    font-size: 2.7rem;
+    padding: 0 .3rem;
+    color: var(--primary-color);
+
+}
+
+.menu_col_icon2 {
+    height: 5rem;
+    width: 9rem;
+    background-color: var(--primary-color);
+    padding: .9rem 3rem;
+    color: white;
+    border-top-left-radius: 40px;
+    cursor: pointer;
+}
+
+.menu_col {
+    box-shadow: 0 -1px 39px 14px rgba(195, 195, 195, 0.75);
+    margin: 1.5rem 1rem;
+    border-radius: 0 30px;
+
+}
+
+.menu_col:hover {
+    cursor: pointer;
+    transition: all .3s linear;
+    transform: scale(1.02);
+    /* rotate: 5deg; */
+
+}
+
+@media only screen and (width >=320px) and (width <=576px) {
+    .menu_col_mid {
+        padding: 0 0 1.5rem 0;
+    }
+
+    .row_col{
+        gap: 0rem !important;
+        padding: 0.5rem !important;
+    }
+
+    .menu_col h2 {
+        font-size: 1.4rem;
+    }
+
+    .menu_col p {
+        font-size: .9rem;
+    }
+
+    .menu_col_icon1 {
+        font-size: 2rem;
+    }
+
+    .menu_col_icon2 {
+        height: 4rem;
+        width: 5.9rem;
+        padding: .9rem 1rem;
+
+    }
+
+}
+
+@media only screen and (width >=577px) and (width <992px) {
+    .main-p{
+        font-size: 1.1rem;
+    }
+    .menu_col_mid {
+        padding: 0 0 .3rem 0;
+    }
+
+    .row_col{
+        gap: 0rem !important;
+        padding:1rem !important;
+    }
+
+    .menu_col h2 {
+        font-size: 1rem;
+    }
+
+    .menu_col p {
+        font-size: .9rem;
+    }
+
+    .menu_col_icon1 {
+        font-size: 1.8rem;
+    }
+
+    .menu_col_icon2 {
+        height: 4rem;
+        width: 3.9rem;
+        padding: .5rem 1rem;
+
+    }
+}
+@media only screen and (width >=992px) {
+    .menu_col h2 {
+        font-size: 1.35rem;
+    }
+    .menu_col h6{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+    .menu_col_icon1 {
+        font-size: 2.5rem;
+    }
+    .menu_col_icon2 {
+        height: 4rem;
+        width: 6rem;
+        padding: .8rem 1rem;
+
+    }
+    
+}
